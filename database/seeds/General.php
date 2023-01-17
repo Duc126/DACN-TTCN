@@ -48,7 +48,7 @@ class General extends Seeder
                 ],
                 [
                     'name' => 'social_share',
-                    'val' => '[{"link":"#","class_icon":"fa fa-facebook"},{"link":"#","class_icon":"fa fa-linkedin"},{"link":"#","class_icon":"fa fa-google-plus"}]',
+                    'val' => '[{"link":"","class_icon":"fa fa-facebook"},{"link":"#","class_icon":"fa fa-linkedin"},{"link":"#","class_icon":"fa fa-google-plus"}]',
                     'group' => "general",
                 ],
                 [

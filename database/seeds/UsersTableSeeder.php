@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class UsersTableSeeder extends Seeder
 {
@@ -13,42 +14,42 @@ class UsersTableSeeder extends Seeder
     {
         
         DB::table('users')->insert([
-            'name' => 'System Admin',
-            'email' => 'admin@dev.com',
+            'name' => 'Admin',
+            'email' => 'admin@gmail.com',
             'password' => bcrypt('admin123'),
             'created_at' =>  date("Y-m-d H:i:s")
         ]);
 
-        $user = \App\User::where('email','admin@dev.com')->first();
+        $user = \App\User::where('email','admin@gmail.com')->first();
         $user->assignRole('administrator');
 
         DB::table('users')->insert([
-            'name' => 'Vendor 01',
-            'email' => 'vendor1@dev.com',
-            'password' => bcrypt('123456Aa'),
+            'name' => 'Staff',
+            'email' => 'nhanvien@gmail.com',
+            'password' => bcrypt('admin123'),
             'created_at' =>  date("Y-m-d H:i:s")
         ]);
-        $user = \App\User::where('email','vendor1@dev.com')->first();
+        $user = \App\User::where('email','nhanvien@gmail.com')->first();
         $user->assignRole('vendor');
 
         DB::table('users')->insert([
-            'name' => 'Customer 01',
-            'email' => 'customer1@dev.com',
-            'password' => bcrypt('123456Aa'),
+            'name' => 'client ',
+            'email' => 'client@gmail.com',
+            'password' => bcrypt('admin123'),
             'created_at' =>  date("Y-m-d H:i:s")
         ]);
 
-        $user = \App\User::where('email','customer1@dev.com')->first();
+        $user = \App\User::where('email','client@gmail.com')->first();
         $user->assignRole('customer');
 
 
         DB::table('users')->insert([
-            'name' => 'Do Quan',
-            'email' => 'quandq@gmail.com',
-            'password' => bcrypt('quangquan'),
+            'name' => 'Duc Bui',
+            'email' => 'duc@gmail.com',
+            'password' => bcrypt('admin123'),
             'created_at' =>  date("Y-m-d H:i:s")
         ]);
-        $user = \App\User::where('email','quandq@gmail.com')->first();
+        $user = \App\User::where('email','duc@gmail.com')->first();
         $user->assignRole('administrator');
     }
 }

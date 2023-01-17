@@ -1,4 +1,4 @@
-<div class="bravo-call-to-action">
+{{-- <div class="bravo-call-to-action">
     <div class="container">
         <div class="context">
             <div class="row">
@@ -20,4 +20,4 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
