@@ -1,0 +1,14 @@
+[2023-01-17 10:20:18] local.ERROR: Undefined index: name {"exception":"[object] (ErrorException(code: 0): Undefined index: name at /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php:122)
+[stacktrace]
+#0 /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(122): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Support/Collection.php(1197): Illuminate\\Foundation\\PackageManifest->Illuminate\\Foundation\\{closure}()
+#2 /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(123): Illuminate\\Support\\Collection->mapWithKeys()
+#3 /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(97): Illuminate\\Foundation\\PackageManifest->build()
+#4 /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Foundation/PackageManifest.php(80): Illuminate\\Foundation\\PackageManifest->getManifest()
+#5 /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterFacades.php(26): Illuminate\\Foundation\\PackageManifest->aliases()
+#6 /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(210): Illuminate\\Foundation\\Bootstrap\\RegisterFacades->bootstrap()
+#7 /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(322): Illuminate\\Foundation\\Application->bootstrapWith()
+#8 /media/mtcv/D/booking/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#9 /media/mtcv/D/booking/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#10 {main}
+"} 
