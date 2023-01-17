@@ -48,9 +48,9 @@
 							<h3>{{ __('Traveler Ltd') }}</h3>
 							<div class="sub">
 								<p></p>
-								<p>{{ __('Tell. + 00 222 444 33') }}</p>
-								<p>{{ __('Email. hello@yoursite.com') }}</p>
-								<p class="address">{{ __('1355 Market St, Suite 900San, Francisco, CA 94103 United States') }} </p>
+								<p>{{ __('Tell. +84 355913199') }}</p>
+								<p>{{ __('Email. ducbui1211@gmail.com') }}</p>
+								<p class="address">{{ __('Việt Nam') }} </p>
 							</div>
 						</div>
 					</div>

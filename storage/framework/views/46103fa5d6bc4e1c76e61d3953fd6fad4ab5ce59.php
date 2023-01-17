@@ -1,7 +1,7 @@
 
 <?php $__env->startSection('content'); ?>
     <?php if($row->template_id): ?>
-        <div class="page-template-content">
+        <div class="page-template-content" style="background: antiquewhite;">
             <?php echo $row->getProcessedContent(); ?>
 
         </div>

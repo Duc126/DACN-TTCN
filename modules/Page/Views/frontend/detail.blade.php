@@ -1,7 +1,7 @@
 @extends ('layouts.app')
 @section ('content')
     @if($row->template_id)
-        <div class="page-template-content">
+        <div class="page-template-content" style="background: antiquewhite;">
             {!! $row->getProcessedContent() !!}
         </div>
     @else
